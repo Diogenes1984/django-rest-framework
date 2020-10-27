@@ -74,7 +74,7 @@ class AvaliacaoViewSet(viewsets.ModelViewSet):
 
 
 class AvaliacaoViewSet(
-    # mixins.ListModelMixin,
+    mixins.ListModelMixin,
     mixins.CreateModelMixin,
     mixins.RetrieveModelMixin,
     mixins.UpdateModelMixin,
