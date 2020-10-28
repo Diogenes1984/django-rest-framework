@@ -22,7 +22,7 @@ class AvaliacaoSerializer(serializers.ModelSerializer):
 
 
 class CursoSerializer(serializers.ModelSerializer):
-    # Nested Realtionship
+    # Nested Relationship
     # avaliacoes = AvaliacaoSerializer(many=True, read_only=True)
 
     # HyperLinked Related Field
